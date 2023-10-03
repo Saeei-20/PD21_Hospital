@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script src="submit.js"></script>
+
+<style>
+    h1 {text-align: center;}
+</style>
+
+<style>
+    body {
+      background-image: url('https://t4.ftcdn.net/jpg/01/33/33/41/360_F_133334155_X23HzbJKawbIgXVaub4bPM8CjpkS5uMS.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+        background-size: cover;
+    }
+</style> 
+</head>
+
+<body> <!--bgcolor="#ADD8E6"-->
+        
+        <h1> <ins> Schedule your Appointment here </ins> </h1>
+        <br>
+    
+        <form onclick="printHello()" method="post">
+            
+            <label for="fname"> Enter your First Name:</label ><br>
+            <input type="text" id="fname" name="fname" size="20" required><br><br>
+
+            <label for="lname"> Enter your Last Name:</label><br>
+            <input type="text" id="lname" name="lname" size="20" required><br><br>
+
+            <label for="addr"> Enter your Permanent Address:</label><br>
+            <input type="text" id="addr" name="addr" size="50" required><br><br>
+
+            <label for="phone"> Enter your Contact No:</label><br>
+            <input type="number" id="phone" name="phone" maxlength="10" size="20"><br><br>
+
+            <label for="age"> Enter your Date of Birth:</label><br>
+            <input type="date" id="age" name="age" size="20"><br><br>
+
+            <label for="date"> Enter Date of Appointment:</label><br>
+            <input type="date" id="date" name="date" size="10"><br><br>
+
+            <label for="time"> Enter Time of Appointment:</label><br>
+            <input type="time" id="time" name="time" size="10"><br><br>
+
+            <input type="submit" value="Submit" onsubmit=" return validateForm();">
+       
+        </form>
+        <div id="output"></div>
+
+</body>
+</html>

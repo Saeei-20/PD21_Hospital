@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation</title>
+</head>
+
+<style>
+    h1 {text-align: center;}
+</style>
+
+<style>
+    body {
+      background-image: url('https://t4.ftcdn.net/jpg/01/33/33/41/360_F_133334155_X23HzbJKawbIgXVaub4bPM8CjpkS5uMS.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+        background-size: cover;
+    }
+</style> 
+
+<body>
+    <h1>WELCOME !</h1>
+        <h1> <ins> Blood Donation Form </ins> </h1>
+        <br>
+
+    
+        <form action="/action_page.php">
+            
+            <label for="fname"> Enter your First Name:</label><br>
+            <input type="text" id="fname" name="fname" size="20"><br><br>
+
+            <label for="lname"> Enter your Last Name:</label><br>
+            <input type="text" id="lname" name="lname" size="20"><br><br>
+
+            <label for="addr"> Enter your Permanent Address:</label><br>
+            <input type="text" id="addr" name="addr" size="70"><br><br>
+
+            <label for="phone"> Enter your Contact No:</label><br>
+            <input type="number" id="phone" name="phone" maxlength="10" size="10"><br><br>
+
+            <label for="age"> Enter your Date of Birth:</label><br>
+            <input type="date" id="age" name="age" size="20"><br><br>
+
+            <label for="date"> Enter Date for Blood Donation:</label><br>
+            <input type="date" id="date" name="date" size="10"><br><br>
+
+            <label for="vaccine"> Mandatory Vaccinations up to date: <br>
+                <input type="radio" value="1" id="vaccine" name="vaccine">Yes
+                <input type="radio" value="2" id="vaccine" name="vaccine">No
+            </label>
+
+            <p> Select your Blood Group: </p>
+            <select name = "group" id="group">
+            <option value = "1"> 1. A +ve </option>
+            <option value = "1"> 2. A -ve </option>
+            <option value = "1"> 3. B +ve </option>
+            <option value = "1"> 4. B -ve </option>
+            <option value = "1"> 5. O +ve </option>
+            <option value = "1"> 6. O -ve </option>
+            <option value = "1"> 7. AB +ve </option>
+            <option value = "1"> 8. AB -ve </option>
+            </select>
+
+            <br><br>
+            <input type="submit" value="Submit">
+       
+        </form>
+</body>
+</html>

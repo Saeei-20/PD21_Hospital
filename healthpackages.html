@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Packages</title>
+</head>
+
+<style>
+    h1 {text-align: center;}
+</style>
+
+<style>
+    body {
+      background-image: url('https://t4.ftcdn.net/jpg/01/33/33/41/360_F_133334155_X23HzbJKawbIgXVaub4bPM8CjpkS5uMS.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+        background-size: cover;
+    } 
+</style> 
+
+<body> <!--bgcolor="#ADD8E6"-->
+        <h1>WELCOME !</h1>
+        <h1> <ins> Health Packages Form </ins> </h1>
+        <br>
+    
+        <form action="/action_page.php">
+            
+            <label for="fname"> Enter your First Name:</label><br>
+            <input type="text" id="fname" name="fname" size="20"><br><br>
+
+            <label for="lname"> Enter your Last Name:</label><br>
+            <input type="text" id="lname" name="lname" size="20"><br><br>
+
+            <label for="addr"> Enter your Permanent Address:</label><br>
+            <input type="text" id="addr" name="addr" size="70"><br><br>
+
+            <label for="phone"> Enter your Contact No:</label><br>
+            <input type="number" id="phone" name="phone" maxlength="10" size="20"><br><br>
+
+            <label for="age"> Enter your Date of Birth:</label><br><br>
+            <input type="date" id="age" name="age" size="20"><br><br>
+
+            <p> Select your Health Package: </p>
+                <select name = "package" id="package">
+                    <option value = "1"> 1. Annual </option>
+                    <option value = "2"> 2. Cancer </option>
+                    <option value = "3"> 3. Women </option>
+                    <option value = "4"> 4. Basic </option>
+                    <option value = "5"> 5. Executive </option>
+                 </select>
+                 <br><br>
+
+            <label for="addr"> Select the Start Date of your Health Package:</label><br><br>
+            <input type="date" id="date" name="date" size="20"><br><br><br>
+
+           
+
+            <input type="submit" value="Submit">
+       
+        </form>
+    
+</body>
+</html>

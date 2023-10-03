@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+
+<style>
+    h1 {text-align: center;}
+</style>
+
+<style>
+    body {
+      background-image: url('https://t4.ftcdn.net/jpg/01/33/33/41/360_F_133334155_X23HzbJKawbIgXVaub4bPM8CjpkS5uMS.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+        background-size: cover;
+    }
+</style> 
+
+<body> <!--bgcolor="#ADD8E6"-->
+    
+        <h1> <ins> Emergency Form </ins> </h1>
+        <br>
+    
+        <form action="/action_page.php">
+            
+            <label for="fname"> Enter your First Name:</label><br>
+            <input type="text" id="fname" name="fname" size="20"><br><br>
+
+            <label for="lname"> Enter your Last Name:</label><br>
+            <input type="text" id="lname" name="lname" size="20"><br><br>
+
+            <label for="addr"> Enter your Location:</label><br>
+            <input type="text" id="addr" name="addr" size="70"><br><br>
+
+            <label for="phone"> Enter your Contact No:</label><br>
+            <input type="number" id="phone" name="phone" maxlength="10" size="20"><br><br>
+
+            <label for="ambulance"> Do you need an Ambulance at the above location? <br>
+                <input type="radio" value="1" id="ambulance" name="ambulance">Yes
+                <input type="radio" value="2" id="ambulance" name="ambulance">No
+            </label>
+
+            <p style="font-size:100%;"> Drop a message here: </p>
+            <textarea name="message2" id="message2" placeholder="" rows="5">
+            </textarea>
+            <br><br>
+
+            <input type="submit" value="Submit"><br>
+
+            <p> Contact Details: +91 22446688 </p>
+       
+        </form>
+    
+
+    
+</body>
+</html>
